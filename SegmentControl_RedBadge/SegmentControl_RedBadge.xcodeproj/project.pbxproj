@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6A79DED1EBC15F600682DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A79DEC1EBC15F600682DB4 /* main.m */; };
+		F6A79DF01EBC15F600682DB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A79DEF1EBC15F600682DB4 /* AppDelegate.m */; };
+		F6A79DF31EBC15F600682DB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A79DF21EBC15F600682DB4 /* ViewController.m */; };
+		F6A79DF61EBC15F600682DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A79DF41EBC15F600682DB4 /* Main.storyboard */; };
+		F6A79DF81EBC15F600682DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A79DF71EBC15F600682DB4 /* Assets.xcassets */; };
+		F6A79DFB1EBC15F600682DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A79DF91EBC15F600682DB4 /* LaunchScreen.storyboard */; };
+		F6A79E061EBC15F600682DB4 /* SegmentControl_RedBadgeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A79E051EBC15F600682DB4 /* SegmentControl_RedBadgeUITests.m */; };
+		F6A79E131EBC164200682DB4 /* LXSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A79E121EBC164200682DB4 /* LXSegmentedControl.m */; };
+		F6A79E161EBC16CF00682DB4 /* UIColor+AppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A79E151EBC16CF00682DB4 /* UIColor+AppColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6A79E021EBC15F600682DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A79DE01EBC15F600682DB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A79DE71EBC15F600682DB4;
+			remoteInfo = SegmentControl_RedBadge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6A79DE81EBC15F600682DB4 /* SegmentControl_RedBadge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentControl_RedBadge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A79DEC1EBC15F600682DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6A79DEE1EBC15F600682DB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6A79DEF1EBC15F600682DB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6A79DF11EBC15F600682DB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6A79DF21EBC15F600682DB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6A79DF51EBC15F600682DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6A79DF71EBC15F600682DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A79DFA1EBC15F600682DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6A79DFC1EBC15F600682DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A79E011EBC15F600682DB4 /* SegmentControl_RedBadgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentControl_RedBadgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A79E051EBC15F600682DB4 /* SegmentControl_RedBadgeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentControl_RedBadgeUITests.m; sourceTree = "<group>"; };
+		F6A79E071EBC15F600682DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A79E111EBC164200682DB4 /* LXSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSegmentedControl.h; sourceTree = "<group>"; };
+		F6A79E121EBC164200682DB4 /* LXSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSegmentedControl.m; sourceTree = "<group>"; };
+		F6A79E141EBC16CF00682DB4 /* UIColor+AppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AppColor.h"; sourceTree = "<group>"; };
+		F6A79E151EBC16CF00682DB4 /* UIColor+AppColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AppColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A79DE51EBC15F600682DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A79DFE1EBC15F600682DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6A79DDF1EBC15F600682DB4 = {
+			isa = PBXGroup;
+			children = (
+				F6A79DEA1EBC15F600682DB4 /* SegmentControl_RedBadge */,
+				F6A79E041EBC15F600682DB4 /* SegmentControl_RedBadgeUITests */,
+				F6A79DE91EBC15F600682DB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A79DE91EBC15F600682DB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A79DE81EBC15F600682DB4 /* SegmentControl_RedBadge.app */,
+				F6A79E011EBC15F600682DB4 /* SegmentControl_RedBadgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A79DEA1EBC15F600682DB4 /* SegmentControl_RedBadge */ = {
+			isa = PBXGroup;
+			children = (
+				F6A79E101EBC160C00682DB4 /* Category */,
+				F6A79DEE1EBC15F600682DB4 /* AppDelegate.h */,
+				F6A79DEF1EBC15F600682DB4 /* AppDelegate.m */,
+				F6A79DF11EBC15F600682DB4 /* ViewController.h */,
+				F6A79DF21EBC15F600682DB4 /* ViewController.m */,
+				F6A79DF41EBC15F600682DB4 /* Main.storyboard */,
+				F6A79DF71EBC15F600682DB4 /* Assets.xcassets */,
+				F6A79DF91EBC15F600682DB4 /* LaunchScreen.storyboard */,
+				F6A79DFC1EBC15F600682DB4 /* Info.plist */,
+				F6A79DEB1EBC15F600682DB4 /* Supporting Files */,
+			);
+			path = SegmentControl_RedBadge;
+			sourceTree = "<group>";
+		};
+		F6A79DEB1EBC15F600682DB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A79DEC1EBC15F600682DB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6A79E041EBC15F600682DB4 /* SegmentControl_RedBadgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A79E051EBC15F600682DB4 /* SegmentControl_RedBadgeUITests.m */,
+				F6A79E071EBC15F600682DB4 /* Info.plist */,
+			);
+			path = SegmentControl_RedBadgeUITests;
+			sourceTree = "<group>";
+		};
+		F6A79E101EBC160C00682DB4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F6A79E111EBC164200682DB4 /* LXSegmentedControl.h */,
+				F6A79E121EBC164200682DB4 /* LXSegmentedControl.m */,
+				F6A79E141EBC16CF00682DB4 /* UIColor+AppColor.h */,
+				F6A79E151EBC16CF00682DB4 /* UIColor+AppColor.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A79DE71EBC15F600682DB4 /* SegmentControl_RedBadge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A79E0A1EBC15F600682DB4 /* Build configuration list for PBXNativeTarget "SegmentControl_RedBadge" */;
+			buildPhases = (
+				F6A79DE41EBC15F600682DB4 /* Sources */,
+				F6A79DE51EBC15F600682DB4 /* Frameworks */,
+				F6A79DE61EBC15F600682DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentControl_RedBadge;
+			productName = SegmentControl_RedBadge;
+			productReference = F6A79DE81EBC15F600682DB4 /* SegmentControl_RedBadge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6A79E001EBC15F600682DB4 /* SegmentControl_RedBadgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A79E0D1EBC15F600682DB4 /* Build configuration list for PBXNativeTarget "SegmentControl_RedBadgeUITests" */;
+			buildPhases = (
+				F6A79DFD1EBC15F600682DB4 /* Sources */,
+				F6A79DFE1EBC15F600682DB4 /* Frameworks */,
+				F6A79DFF1EBC15F600682DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A79E031EBC15F600682DB4 /* PBXTargetDependency */,
+			);
+			name = SegmentControl_RedBadgeUITests;
+			productName = SegmentControl_RedBadgeUITests;
+			productReference = F6A79E011EBC15F600682DB4 /* SegmentControl_RedBadgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A79DE01EBC15F600682DB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = suime;
+				TargetAttributes = {
+					F6A79DE71EBC15F600682DB4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					F6A79E001EBC15F600682DB4 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6A79DE71EBC15F600682DB4;
+					};
+				};
+			};
+			buildConfigurationList = F6A79DE31EBC15F600682DB4 /* Build configuration list for PBXProject "SegmentControl_RedBadge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A79DDF1EBC15F600682DB4;
+			productRefGroup = F6A79DE91EBC15F600682DB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A79DE71EBC15F600682DB4 /* SegmentControl_RedBadge */,
+				F6A79E001EBC15F600682DB4 /* SegmentControl_RedBadgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A79DE61EBC15F600682DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A79DFB1EBC15F600682DB4 /* LaunchScreen.storyboard in Resources */,
+				F6A79DF81EBC15F600682DB4 /* Assets.xcassets in Resources */,
+				F6A79DF61EBC15F600682DB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A79DFF1EBC15F600682DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A79DE41EBC15F600682DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A79E131EBC164200682DB4 /* LXSegmentedControl.m in Sources */,
+				F6A79DF31EBC15F600682DB4 /* ViewController.m in Sources */,
+				F6A79DF01EBC15F600682DB4 /* AppDelegate.m in Sources */,
+				F6A79E161EBC16CF00682DB4 /* UIColor+AppColor.m in Sources */,
+				F6A79DED1EBC15F600682DB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A79DFD1EBC15F600682DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A79E061EBC15F600682DB4 /* SegmentControl_RedBadgeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6A79E031EBC15F600682DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A79DE71EBC15F600682DB4 /* SegmentControl_RedBadge */;
+			targetProxy = F6A79E021EBC15F600682DB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6A79DF41EBC15F600682DB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A79DF51EBC15F600682DB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6A79DF91EBC15F600682DB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A79DFA1EBC15F600682DB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6A79E081EBC15F600682DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A79E091EBC15F600682DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A79E0B1EBC15F600682DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SegmentControl_RedBadge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lixiang.SegmentControl-RedBadge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6A79E0C1EBC15F600682DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SegmentControl_RedBadge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lixiang.SegmentControl-RedBadge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6A79E0E1EBC15F600682DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SegmentControl_RedBadgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lixiang.SegmentControl-RedBadgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SegmentControl_RedBadge;
+			};
+			name = Debug;
+		};
+		F6A79E0F1EBC15F600682DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SegmentControl_RedBadgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lixiang.SegmentControl-RedBadgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SegmentControl_RedBadge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A79DE31EBC15F600682DB4 /* Build configuration list for PBXProject "SegmentControl_RedBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A79E081EBC15F600682DB4 /* Debug */,
+				F6A79E091EBC15F600682DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A79E0A1EBC15F600682DB4 /* Build configuration list for PBXNativeTarget "SegmentControl_RedBadge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A79E0B1EBC15F600682DB4 /* Debug */,
+				F6A79E0C1EBC15F600682DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6A79E0D1EBC15F600682DB4 /* Build configuration list for PBXNativeTarget "SegmentControl_RedBadgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A79E0E1EBC15F600682DB4 /* Debug */,
+				F6A79E0F1EBC15F600682DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6A79DE01EBC15F600682DB4 /* Project object */;
+}
